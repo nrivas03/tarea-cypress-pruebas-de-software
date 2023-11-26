@@ -5,9 +5,9 @@ describe('Support Home Options', () => {
       .parent('.flex-movile')
       .click();
 
-      cy.url().should('eq', 'https://ayuda.tenpo.cl/support/solutions/folders/43000556674');  // Reemplaza con la URL esperada
+      cy.url().should('eq', 'https://ayuda.tenpo.cl/support/solutions/folders/43000556674'); 
 
-      cy.get('#grupo-acordeon')  // Asegúrate de que este selector sea único
+      cy.get('#grupo-acordeon')
       .contains('.titulo-pregunta', '¿Tenpo tiene comisiones?')
       .click();
 
