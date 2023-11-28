@@ -16,7 +16,7 @@ Respositorio creado para realizar pruebas a centro de ayudas de Tenpo utilizando
 
 Ejecutar pruebas
 
-    npx cypress open
+    npm test
 
 
 ## Autores
